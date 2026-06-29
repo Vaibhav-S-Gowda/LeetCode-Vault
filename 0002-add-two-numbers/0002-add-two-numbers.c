@@ -1,35 +1,35 @@
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
-    int sum = 0;
+    struct ListNode dummy;
+    dummy.val = 0;
+    dummy.next = NULL;
+    struct ListNode* curr = &dummy; // This pointer will move as we add nodes
+    
     int carry = 0;
-    struct ListNode* index1 = l1;
-    struct ListNode* index2 = l2;
-    struct ListNode* new_node = malloc(sizeof(struct ListNode));
-    struct ListNode* base_node = new_node;
-
-    new_node->next = NULL;
-
-    do {
-        sum = ((index1 == NULL) ? 0 : index1->val) + ((index2 == NULL) ? 0 : index2->val) + carry;
-        carry = 0;
-
-        if (sum >= 10) {
-            sum -= 10;
-            carry = 1;
+    
+    while (l1 != NULL || l2 != NULL || carry != 0) {
+        int sum = carry;
+        
+        if (l1 != NULL) {
+            sum += l1->val;
+            l1 = l1->next; 
         }
-
-        new_node->val = sum;
-
-        if (index1 != NULL) index1 = index1->next;
-        if (index2 != NULL) index2 = index2->next;
-
-        if (index1 != NULL || index2 != NULL || carry != 0) {
-            new_node->next = malloc(sizeof(struct ListNode));
-            new_node = new_node->next;
-            new_node->next = NULL;
+        if (l2 != NULL) {
+            sum += l2->val;
+            l2 = l2->next; 
         }
-
-
-    } while (index1 != NULL || index2 != NULL || carry != 0);
-
-    return base_node;
+        
+        carry = sum / 10; 
+        
+        // Create a new node for the single digit (e.g., 12 % 10 = 2)
+        struct ListNode* newNode = (struct ListNode*)malloc(sizeof(struct ListNode));
+        newNode->val = sum % 10;
+        newNode->next = NULL;
+        
+        // Connect it to result list
+        curr->next = newNode;
+        curr = curr->next;
+    }
+    
+    // 4. Return dummy.next because dummy itself was just a placeholder
+    return dummy.next; 
 }
