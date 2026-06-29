@@ -18,9 +18,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0704-binary-search](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0704-binary-search) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## String
 |  |
 | ------- |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
