@@ -1,22 +1,17 @@
-#define MIN(a, b) ((a) < (b) ? (a) : (b))
+int min(int a, int b) {
+    return a > b ? b : a;
+}
 
 int numberOfSubstrings(char* s) {
+    int a = -1, b = -1, c = -1;
     int n = strlen(s);
-    int count = 0;
-    
-    // Store the last seen index of 'a', 'b', and 'c'
-    // Initialize with -1 to mean "not seen yet"
-    int last_seen[3] = {-1, -1, -1};
-    
-    for (int j = 0; j < n; j++) {
-        last_seen[s[j] - 'a'] = j;
-        
-        if (last_seen[0] != -1 && last_seen[1] != -1 && last_seen[2] != -1) {
-            int min_idx = MIN(last_seen[0], MIN(last_seen[1], last_seen[2]));
-            
-            count += (min_idx + 1);
-        }
+    int ans = 0;
+    for (int i = 0; i < n; i++) {
+        if (s[i] == 'a') a = i;
+        else if (s[i] == 'b') b = i;
+        else if (s[i] == 'c') c = i;
+        int j = min(a, min(b, c));
+        ans += j+1;
     }
-    
-    return count;
+    return ans;
 }
