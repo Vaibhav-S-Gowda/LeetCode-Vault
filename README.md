@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0001-two-sum) |
+| [0053-maximum-subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) |
 | [0704-binary-search](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0724-find-pivot-index) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0005-longest-palindromic-substring) |
+| [0053-maximum-subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) |
 ## Sorting
 |  |
 | ------- |
@@ -78,4 +80,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
