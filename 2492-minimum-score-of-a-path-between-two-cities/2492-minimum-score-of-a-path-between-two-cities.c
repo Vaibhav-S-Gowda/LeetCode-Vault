@@ -1,74 +1,47 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
-#include <stdbool.h>
 
-typedef struct Edge {
-    int to;
-    int distance;
-    struct Edge* next;
-} Edge;
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+// Find operation with path compression
+int find_set(int* parent, int i) {
+    if (parent[i] == i)
+        return i;
+    return parent[i] = find_set(parent, parent[i]);
+}
+
+// Union operation
+void union_sets(int* parent, int i, int j) {
+    int root_i = find_set(parent, i);
+    int root_j = find_set(parent, j);
+    if (root_i != root_j) {
+        parent[root_i] = root_j;
+    }
+}
 
 int minScore(int n, int** roads, int roadsSize, int* roadsColSize) {
-    Edge** graph = (Edge**)calloc((n + 1), sizeof(Edge*));
-
-    for(int i = 0; i < roadsSize; i++) {
-        int u = roads[i][0];
-        int v = roads[i][1];
-        int dist = roads[i][2];
-
-        Edge* edge1 = (Edge*)malloc(sizeof(Edge));
-        edge1->to = v;
-        edge1->distance = dist;
-        edge1->next = graph[u];
-        graph[u] = edge1;
-
-        Edge* edge2 = (Edge*)malloc(sizeof(Edge));
-        edge2->to = u;
-        edge2->distance = dist;
-        edge2->next = graph[v];
-        graph[v] = edge2;
-    }
-
-    // BFS configuration
-    bool* visited = (bool*)calloc((n + 1), sizeof(bool));
-    int* queue = (int*)malloc((n + 1) * sizeof(int));
-    int head = 0, tail = 0;
-
-    queue[tail++] = 1;
-    visited[1] = true;
-
-    int min_score = INT_MAX;
-
-    while(head < tail) {
-        int curr = queue[head++];
-
-        Edge* edge = graph[curr];
-        while(edge != NULL) {
-            if (edge->distance < min_score) {
-                min_score = edge->distance;
-            }
-
-            if (!visited[edge->to]) {
-                visited[edge->to] = true;
-                queue[tail++] = edge->to;
-            }
-            edge = edge->next;
-        }
-    }
-
+    // Allocate and initialize parent array (1-indexed)
+    int* parent = (int*)malloc((n + 1) * sizeof(int));
     for (int i = 1; i <= n; i++) {
-        Edge* edge = graph[i];
-        while (edge != NULL) {
-            Edge* tmp = edge;
-            edge = edge->next;
-            free(tmp);
+        parent[i] = i;
+    }
+    
+    // Step 1: Union all connected cities together
+    for (int i = 0; i < roadsSize; i++) {
+        union_sets(parent, roads[i][0], roads[i][1]);
+    }
+    
+    // Find the root component group containing city 1
+    int root1 = find_set(parent, 1);
+    int min_score = 1e9; // Initialize with a large infinity value
+    
+    // Step 2: Scan all edges; if an edge belongs to city 1's component, track its minimum weight
+    for (int i = 0; i < roadsSize; i++) {
+        if (find_set(parent, roads[i][0]) == root1) {
+            min_score = MIN(min_score, roads[i][2]);
         }
     }
-
-    free(graph);
-    free(visited);
-    free(queue);
-
+    
+    free(parent);
     return min_score;
 }
