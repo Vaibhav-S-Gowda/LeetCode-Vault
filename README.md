@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0070-climbing-stairs) |
 ## Recursion
 |  |
 | ------- |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0070-climbing-stairs) |
 ## Sorting
 |  |
 | ------- |
@@ -96,4 +98,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
