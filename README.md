@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0724-find-pivot-index) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [3467-transform-array-by-parity](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3467-transform-array-by-parity) |
 ## String
 |  |
 | ------- |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0242-valid-anagram) |
+| [3467-transform-array-by-parity](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3467-transform-array-by-parity) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) |
+| [3467-transform-array-by-parity](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3467-transform-array-by-parity) |
 ## Memoization
 |  |
 | ------- |
