@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) |
+| [0322-coin-change](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0322-coin-change) |
 | [0643-maximum-average-subarray-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0724-find-pivot-index) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0070-climbing-stairs) |
+| [0322-coin-change](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0322-coin-change) |
 ## Sorting
 |  |
 | ------- |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0322-coin-change) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Union-Find
 |  |
