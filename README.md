@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) |
 | [0322-coin-change](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0322-coin-change) |
 | [0643-maximum-average-subarray-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0643-maximum-average-subarray-i) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0073-set-matrix-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0242-valid-anagram) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -110,4 +112,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0070-climbing-stairs) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
