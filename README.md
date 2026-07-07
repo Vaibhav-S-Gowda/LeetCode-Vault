@@ -3,7 +3,7 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 
 ---
 
-## 📊 Master Problem Index
+## Master Problem Index
 
 | ID | Problem Name | Tags / Categories |
 | :---: | :--- | :--- |
@@ -28,10 +28,11 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 | 1967 | 🔗 [Number of Strings That Appear as Substrings in Word](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) | `Array`, `String` |
 | 2492 | 🔗 [Minimum Score of a Path Between Two Cities](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/2492-minimum-score-of-a-path-between-two-cities) | `DFS`, `BFS`, `Union-Find`, `Graph Theory` |
 | 3467 | 🔗 [Transform Array by Parity](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3467-transform-array-by-parity) | `Array`, `Sorting`, `Counting` |
+| 3754 | 🔗 [Concatenate Non-Zero Digits and Multiply by Sum I](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) | `Math` |
 
 ---
 
-## 🏷️ Explore by Topic
+## Explore by Topic
 
 <details>
 <summary><b>Arrays & Matrices (15 problems)</b></summary>
@@ -88,8 +89,13 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 </details>
 
 <details>
-<summary><b>Data Structures & Graphs</b></summary>
+<summary><b>Data Structures, Math & Graphs</b></summary>
 
+> ### Mathematics & Recursion
+> * 0002 - Add Two Numbers
+> * 0070 - Climbing Stairs
+> * 3754 - Concatenate Non-Zero Digits and Multiply by Sum I
+>
 > ### Hash Table
 > * 0001, 0003, 0073, 0169, 0242, 0496, 1358
 >
@@ -101,11 +107,3 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 > * 0002 - Add Two Numbers (Linked List)
 > * 0496 - Next Greater Element I (Stack, Monotonic Stack)
 </details>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
-<!---LeetCode Topics End-->
