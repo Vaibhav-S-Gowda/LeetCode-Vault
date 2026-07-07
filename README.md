@@ -96,8 +96,14 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 > * 0070 - Climbing Stairs
 > * 3754 - Concatenate Non-Zero Digits and Multiply by Sum I
 >
-> ### Hash Table
-> * 0001, 0003, 0073, 0169, 0242, 0496, 1358
+### Hash Table
+> * 0001 - Two Sum
+> * 0003 - Longest Substring Without Repeating Characters
+> * 0073 - Set Matrix Zeroes
+> * 0169 - Majority Element
+> * 0242 - Valid Anagram
+> * 0496 - Next Greater Element I
+> * 1358 - Number of Substrings Containing All Three Characters
 >
 > ### Graph Theory, DFS, BFS & Union-Find
 > * 0322 - Coin Change (BFS)
