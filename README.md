@@ -1,5 +1,12 @@
 # LeetCode-Vault
-A curated collection of LeetCode challenges conquered to ace the technical interview. Generated automatically via [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0).
+A professional tracking repository for Data Structures, Algorithms, and Database challenges conquered to ace the technical interview. Generated automatically via [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0).
+
+---
+
+## Analytics Dashboard
+
+![LeetCode Dynamic Badges](https://img.shields.io/badge/Problems_Solved-23-brightgreen?style=for-the-badge&logo=leetcode)
+![Language](https://img.shields.io/badge/Main_Focus-DSA_%26_SQL-blue?style=for-the-badge)
 
 ---
 
@@ -15,7 +22,9 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 | 0053 | 🔗 [Maximum Subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) | `Array`, `Dynamic Programming`, `Divide & Conquer` |
 | 0070 | 🔗 [Climbing Stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0070-climbing-stairs) | `Math`, `Dynamic Programming`, `Memoization` |
 | 0073 | 🔗 [Set Matrix Zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0073-set-matrix-zeroes) | `Array`, `Hash Table`, `Matrix` |
+| 0075 | 🔗 [Sort Colors](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0075-sort-colors) | `Array`, `Two Pointers`, `Sorting` |
 | 0169 | 🔗 [Majority Element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) | `Array`, `Hash Table`, `Sorting`, `Divide & Conquer`, `Counting` |
+| 0176 | 🔗 [Second Highest Salary](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0176-second-highest-salary) | `Database`, `SQL` |
 | 0242 | 🔗 [Valid Anagram](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0242-valid-anagram) | `String`, `Hash Table`, `Sorting` |
 | 0283 | 🔗 [Move Zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0283-move-zeroes) | `Array`, `Two Pointers` |
 | 0322 | 🔗 [Coin Change](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0322-coin-change) | `Array`, `Dynamic Programming`, `Breadth-First Search` |
@@ -35,12 +44,13 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 ## Explore by Topic
 
 <details>
-<summary><b>Arrays & Matrices (15 problems)</b></summary>
+<summary><b>Arrays & Matrices (16 problems)</b></summary>
 
 * 0001 - Two Sum
 * 0026 - Remove Duplicates from Sorted Array
 * 0053 - Maximum Subarray
 * 0073 - Set Matrix Zeroes
+* 0075 - Sort Colors
 * 0169 - Majority Element
 * 0283 - Move Zeroes
 * 0322 - Coin Change
@@ -76,11 +86,13 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 > * 0003 - Longest Substring Without Repeating Characters
 > * 0005 - Longest Palindromic Substring
 > * 0026 - Remove Duplicates from Sorted Array
+> * 0075 - Sort Colors
 > * 0283 - Move Zeroes
 > * 0643 - Maximum Average Subarray I
 > * 1358 - Number of Substrings Containing All Three Characters
 > 
 > ### Binary Search & Sorting
+> * 0075 - Sort Colors
 > * 0169 - Majority Element
 > * 0242 - Valid Anagram
 > * 0704 - Binary Search
@@ -89,14 +101,9 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 </details>
 
 <details>
-<summary><b>Data Structures, Math & Graphs</b></summary>
+<summary><b>Data Structures, Math & Database</b></summary>
 
-> ### Mathematics & Recursion
-> * 0002 - Add Two Numbers
-> * 0070 - Climbing Stairs
-> * 3754 - Concatenate Non-Zero Digits and Multiply by Sum I
->
-### Hash Table
+> ### Hash Table
 > * 0001 - Two Sum
 > * 0003 - Longest Substring Without Repeating Characters
 > * 0073 - Set Matrix Zeroes
@@ -104,6 +111,14 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 > * 0242 - Valid Anagram
 > * 0496 - Next Greater Element I
 > * 1358 - Number of Substrings Containing All Three Characters
+>
+> ### Database & SQL
+> * 0176 - Second Highest Salary
+>
+> ### Mathematics & Recursion
+> * 0002 - Add Two Numbers
+> * 0070 - Climbing Stairs
+> * 3754 - Concatenate Non-Zero Digits and Multiply by Sum I
 >
 > ### Graph Theory, DFS, BFS & Union-Find
 > * 0322 - Coin Change (BFS)
@@ -113,23 +128,3 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 > * 0002 - Add Two Numbers (Linked List)
 > * 0496 - Next Greater Element I (Stack, Monotonic Stack)
 </details>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0075-sort-colors](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0075-sort-colors) |
-## Two Pointers
-|  |
-| ------- |
-| [0075-sort-colors](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0075-sort-colors) |
-## Sorting
-|  |
-| ------- |
-| [0075-sort-colors](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0075-sort-colors) |
-## Database
-|  |
-| ------- |
-| [0176-second-highest-salary](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0176-second-highest-salary) |
-<!---LeetCode Topics End-->
