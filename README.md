@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0322-coin-change) |
+| [0496-next-greater-element-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0496-next-greater-element-i) |
 | [0643-maximum-average-subarray-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0724-find-pivot-index) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0242-valid-anagram) |
+| [0496-next-greater-element-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0496-next-greater-element-i) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Sliding Window
 |  |
@@ -118,4 +120,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0073-set-matrix-zeroes) |
+## Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0496-next-greater-element-i) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
