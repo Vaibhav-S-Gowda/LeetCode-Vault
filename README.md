@@ -128,4 +128,8 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0075-sort-colors) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
