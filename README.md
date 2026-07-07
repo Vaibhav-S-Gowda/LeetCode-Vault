@@ -101,3 +101,11 @@ A curated collection of LeetCode challenges conquered to ace the technical inter
 > * 0002 - Add Two Numbers (Linked List)
 > * 0496 - Next Greater Element I (Stack, Monotonic Stack)
 </details>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+<!---LeetCode Topics End-->
