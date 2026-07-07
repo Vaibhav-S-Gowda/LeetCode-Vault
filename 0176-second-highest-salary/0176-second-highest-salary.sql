@@ -1,5 +1,5 @@
 /* Method 1 */
-/*
+
 SELECT
 MAX(salary) AS SecondHighestSalary
 FROM(
@@ -9,7 +9,7 @@ FROM(
     FROM Employee
 ) t 
 WHERE rnk = 2;
-*/
+
 
 /* Method 2 */
 /*
@@ -20,9 +20,11 @@ WHERE salary < (SELECT MAX(salary) FROM Employee);
 */
 
 /* Method 3 */
-SELECT (
+
+/* SELECT (
     SELECT DISTINCT salary
     FROM Employee
     ORDER BY salary DESC
     LIMIT 1, 1
-) AS SecondHighestSalary;
+   ) AS SecondHighestSalary;
+*/
