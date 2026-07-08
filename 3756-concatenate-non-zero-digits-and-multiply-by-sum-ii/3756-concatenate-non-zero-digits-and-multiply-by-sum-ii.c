@@ -1,101 +1,83 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#ifndef LOCAL_BUILD
+#pragma GCC optimize("Ofast,unroll-loops")
+#pragma GCC target("abm,avx,avx2,bmi,bmi2,fma,popcnt,lzcnt,tune=znver5")
+#define NO_SANITIZE __attribute__((no_sanitize("all")))
+#else
+#define NO_SANITIZE
+#endif
 
-#define MOD 1000000007
+#define MOD 1000000007LL
+#define DECIMAL_BASE 10
+#define MAX_LEN 100001
 
-int binarySearch(int* positions, int size, int target, int mode) {
-    int low = 0, high = size - 1;
-    int ans = -1;
-    
-    while (low <= high) {
-        int mid = low + (high - low) / 2;
-        if (mode == 0) {
-            if (positions[mid] >= target) {
-                ans = mid;
-                high = mid - 1;
-            } else {
-                low = mid + 1;
-            }
-        } else {
-            if (positions[mid] <= target) {
-                ans = mid;
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
+struct PrefixEntry {
+    int sum;
+    int concat;
+};
+
+static int next_nz[MAX_LEN];
+static struct PrefixEntry prefix[MAX_LEN];
+static int pow10_arr[MAX_LEN];
+static int result_arr[MAX_LEN];
+
+// NOLINTNEXTLINE(readability-identifier-naming)
+NO_SANITIZE int* sumAndMultiply(const char* restrict str, int** queries,
+                                int queries_size, int* queries_col_size,
+                                int* return_size) {
+    (void)queries_col_size;
+
+    int nz_count = 0;
+    prefix[0].sum = 0;
+    prefix[0].concat = 0;
+    pow10_arr[0] = 1;
+
+    int len = 0;
+    while (str[len] != '\0') {
+        int digit = str[len] - '0';
+        next_nz[len] = nz_count;
+        if (digit != 0) {
+            prefix[nz_count + 1].sum = prefix[nz_count].sum + digit;
+            prefix[nz_count + 1].concat =
+                (int)(((long long)prefix[nz_count].concat * DECIMAL_BASE +
+                       digit) %
+                      MOD);
+            pow10_arr[nz_count + 1] =
+                (int)(((long long)pow10_arr[nz_count] * DECIMAL_BASE) % MOD);
+            nz_count++;
         }
-    }
-    return ans;
-}
-
-int* sumAndMultiply(char* s, int** queries, int queriesSize, int* queriesColSize, int* returnSize) {
-    int n = strlen(s);
-
-    int* digits = (int*)malloc(n * sizeof(int));
-    int* positions = (int*)malloc(n * sizeof(int));
-    int m = 0;
-
-    for (int i = 0; i < n; i++) {
-        if (s[i] != '0') {
-            digits[m] = s[i] - '0';
-            positions[m] = i;
-            m++;
-        }
+        len++;
     }
 
-    int* ans = (int*)malloc(queriesSize * sizeof(int));
-    *returnSize = queriesSize;
+    *return_size = queries_size;
+    for (int idx = 0; idx < queries_size; idx++) {
+        int left = queries[idx][0];
+        int right = queries[idx][1];
 
-    if (m == 0) {
-        for (int i = 0; i < queriesSize; i++) {
-            ans[i] = 0;
-        }
-        free(digits);
-        free(positions);
-        return ans;
-    }
-
-    long long* pow10 = (long long*)malloc((m + 1) * sizeof(long long));
-    pow10[0] = 1;
-    for (int i = 1; i <= m; i++) {
-        pow10[i] = (pow10[i - 1] * 10) % MOD;
-    }
-
-    long long* pref_sum = (long long*)malloc((m + 1) * sizeof(long long));
-    long long* pref_val = (long long*)malloc((m + 1) * sizeof(long long));
-    pref_sum[0] = 0;
-    pref_val[0] = 0;
-
-    for (int i = 0; i < m; i++) {
-        pref_sum[i + 1] = pref_sum[i] + digits[i];
-        pref_val[i + 1] = (pref_val[i] * 10 + digits[i]) % MOD;
-    }
-
-    // Run Queries
-    for (int i = 0; i < queriesSize; i++) {
-        int l = queries[i][0];
-        int r = queries[i][1];
-
-        int L = binarySearch(positions, m, l, 0);
-        int R = binarySearch(positions, m, r, 1);
-
-        if (L == -1 || R == -1 || L > R) {
-            ans[i] = 0;
+        if (left < 0 || right < 0 || left > right || right >= len) {
+            result_arr[idx] = 0;
             continue;
         }
 
-        long long length = R - L + 1;
-        long long x = (pref_val[R + 1] - (pref_val[L] * pow10[length]) % MOD + MOD) % MOD;
-        long long digit_sum = pref_sum[R + 1] - pref_sum[L];
-        ans[i] = (int)((x * digit_sum) % MOD);
+        int left_idx = next_nz[left];
+        int right_idx = next_nz[right] - (str[right] == '0');
+
+        if (left_idx < 0 || right_idx < 0 || left_idx > right_idx ||
+            left_idx >= nz_count || right_idx >= nz_count) {
+            result_arr[idx] = 0;
+            continue;
+        }
+
+        int count = right_idx - left_idx + 1;
+        int digit_sum = prefix[right_idx + 1].sum - prefix[left_idx].sum;
+
+        long long concat_value =
+            ((long long)prefix[right_idx + 1].concat -
+             (long long)prefix[left_idx].concat * pow10_arr[count] % MOD +
+             MOD) %
+            MOD;
+
+        result_arr[idx] = (int)(concat_value * digit_sum % MOD);
     }
 
-    free(digits);
-    free(positions);
-    free(pow10);
-    free(pref_sum);
-    free(pref_val);
-
-    return ans;
+    return result_arr;
 }
