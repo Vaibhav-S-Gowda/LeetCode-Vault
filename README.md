@@ -128,3 +128,27 @@ A professional tracking repository for Data Structures, Algorithms, and Database
 > * 0002 - Add Two Numbers (Linked List)
 > * 0496 - Next Greater Element I (Stack, Monotonic Stack)
 </details>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0200-number-of-islands) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0200-number-of-islands) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0200-number-of-islands) |
+<!---LeetCode Topics End-->
