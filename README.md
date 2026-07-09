@@ -19,7 +19,8 @@ A professional tracking repository for Data Structures, Algorithms, and Database
 | 0003 | 🔗 [Longest Substring Without Repeating Characters](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0003-longest-substring-without-repeating-characters) | `String`, `Hash Table`, `Sliding Window` |
 | 0005 | 🔗 [Longest Palindromic Substring](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0005-longest-palindromic-substring) | `String`, `Two Pointers`, `Dynamic Programming` |
 | 0026 | 🔗 [Remove Duplicates from Sorted Array](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0026-remove-duplicates-from-sorted-array) | `Array`, `Two Pointers` |
-| 0050 | 🔗 [50. Pow(x, n)](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0050-powx-n) | `Math`, `Recursion` |
+| 0043 | 🔗 [Multiply Strings](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0043-multiply-strings) | `Math`, `String`, `Simulation` |
+| 0050 | 🔗 [Pow(x, n)](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0050-powx-n) | `Math`, `Recursion` |
 | 0053 | 🔗 [Maximum Subarray](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0053-maximum-subarray) | `Array`, `Dynamic Programming`, `Divide & Conquer` |
 | 0070 | 🔗 [Climbing Stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0070-climbing-stairs) | `Math`, `Dynamic Programming`, `Memoization` |
 | 0073 | 🔗 [Set Matrix Zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0073-set-matrix-zeroes) | `Array`, `Hash Table`, `Matrix` |
@@ -69,6 +70,7 @@ A professional tracking repository for Data Structures, Algorithms, and Database
 
 * 0003 - Longest Substring Without Repeating Characters
 * 0005 - Longest Palindromic Substring
+* 0043 - Multiply Strings
 * 0242 - Valid Anagram
 * 1358 - Number of Substrings Containing All Three Characters
 * 1967 - Number of Strings That Appear as Substrings in Word
