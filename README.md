@@ -5,7 +5,7 @@ A professional tracking repository for Data Structures, Algorithms, and Database
 
 ## Analytics Dashboard
 
-![LeetCode Dynamic Badges](https://img.shields.io/badge/Problems_Solved-23-brightgreen?style=for-the-badge&logo=leetcode)
+![LeetCode Dynamic Badges](https://img.shields.io/badge/Problems_Solved-25-brightgreen?style=for-the-badge&logo=leetcode)
 ![Language](https://img.shields.io/badge/Main_Focus-DSA_%26_SQL-blue?style=for-the-badge)
 
 ---
