@@ -18,6 +18,7 @@ A professional tracking repository for Data Structures, Algorithms, and Database
 | 0002 | [Add Two Numbers](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0002-add-two-numbers) | `Linked List`, `Math`, `Recursion` |
 | 0003 | [Longest Substring Without Repeating Characters](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0003-longest-substring-without-repeating-characters) | `String`, `Hash Table`, `Sliding Window` |
 | 0005 | [Longest Palindromic Substring](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0005-longest-palindromic-substring) | `String`, `Two Pointers`, `Dynamic Programming` |
+| 0020 | [Valid Parentheses](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0020-valid-parentheses) | `Stack`, `String` |
 | 0026 | [Remove Duplicates from Sorted Array](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0026-remove-duplicates-from-sorted-array) | `Array`, `Two Pointers` |
 | 0043 | [Multiply Strings](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0043-multiply-strings) | `Math`, `String`, `Simulation` |
 | 0050 | [Pow(x, n)](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0050-powx-n) | `Math`, `Recursion` |
