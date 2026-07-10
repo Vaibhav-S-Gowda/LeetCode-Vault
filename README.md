@@ -13,7 +13,7 @@
 
 ## Table of Contents
 
-- [Master Problem Index](#-master-problem-index)
+- [Master Problem Index](#master-problem-index)
   - [Arrays & Matrices](#arrays--matrices)
   - [Strings & Substrings](#strings--substrings)
   - [Stacks & Queues](#stacks--queues)
