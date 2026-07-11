@@ -62,6 +62,7 @@
 | 1358 | [Number of Substrings Containing All Three Characters](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1358-number-of-substrings-containing-all-three-characters) | `String` `Hash Table` `Sliding Window` |
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) | `Array` `String` |
 | 2492 | [Minimum Score of a Path Between Two Cities](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/2492-minimum-score-of-a-path-between-two-cities) | `DFS` `BFS` `Union-Find` `Graph Theory` |
+| 2418 | [Sort the People](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/2418-sort-the-people) | `Array` `Hash Table` `String` `Sorting` |
 | 3467 | [Transform Array by Parity](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3467-transform-array-by-parity) | `Array` `Sorting` `Counting` |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) | `Math` |
 | 3756 | [Concatenate Non-Zero Digits and Multiply by Sum II](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) | `Math` `String` `Prefix Sum`|
