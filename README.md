@@ -59,6 +59,7 @@
 | 0704 | [Binary Search](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0704-binary-search) | `Array` `Binary Search` |
 | 0724 | [Find Pivot Index](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0724-find-pivot-index) | `Array` `Prefix Sum` |
 | 1288 | [Remove Covered Intervals](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1288-remove-covered-intervals) | `Array` `Sorting` |
+| 1331 | [Rank Transform of an Array](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1331-rank-transform-of-an-array) | `Array` `Hash Table` `Sorting` |
 | 1358 | [Number of Substrings Containing All Three Characters](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1358-number-of-substrings-containing-all-three-characters) | `String` `Hash Table` `Sliding Window` |
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) | `Array` `String` |
 | 2492 | [Minimum Score of a Path Between Two Cities](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/2492-minimum-score-of-a-path-between-two-cities) | `DFS` `BFS` `Union-Find` `Graph Theory` |
