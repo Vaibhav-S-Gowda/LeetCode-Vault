@@ -1,21 +1,20 @@
 class Solution(object):
     def isValidSudoku(self, board):
-        rows = [set() for _ in range(9)]
-        cols = [set() for _ in range(9)]
-        boxes = [set() for _ in range(9)]
-        
+        seen = set()
         for r in range(9):
             for c in range(9):
-                val = board[r][c]
-                if val == '.':
-                    continue
+                num = board[r][c]
+                if num != ".":
+                    row_key = (r, num)
+                    col_key = (num, c)
+                    box_key = (r//3, c//3, num)
 
-                box_idx = (r // 3) * 3 + (c // 3)
+                    if row_key in seen or col_key in seen or box_key in seen:
+                        return False
+                    
+                    seen.add(row_key)
+                    seen.add(col_key)
+                    seen.add(box_key)
 
-                if val in rows[r] or val in cols[c] or val in boxes[box_idx]:
-                    return False
-
-                rows[r].add(val)
-                cols[c].add(val)
-                boxes[box_idx].add(val)
-        return True 
+        return True
+        
