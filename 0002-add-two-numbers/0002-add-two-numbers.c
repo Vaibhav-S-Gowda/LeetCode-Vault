@@ -19,17 +19,12 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
         }
         
         carry = sum / 10; 
-        
-        // Create a new node for the single digit (e.g., 12 % 10 = 2)
+
         struct ListNode* newNode = (struct ListNode*)malloc(sizeof(struct ListNode));
         newNode->val = sum % 10;
         newNode->next = NULL;
-        
-        // Connect it to result list
         curr->next = newNode;
         curr = curr->next;
     }
-    
-    // 4. Return dummy.next because dummy itself was just a placeholder
     return dummy.next; 
 }
