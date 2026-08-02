@@ -24,11 +24,12 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
         struct ListNode* newNode = (struct ListNode*)malloc(sizeof(struct ListNode));
         newNode->val = sum % 10;
         newNode->next = NULL;
-
+        
+        // Connect it to result list
         curr->next = newNode;
         curr = curr->next;
     }
     
-    // Return dummy.next because dummy itself was just a placeholder
+    // 4. Return dummy.next because dummy itself was just a placeholder
     return dummy.next; 
 }
