@@ -2,7 +2,7 @@
 
 # LeetCode Vault
 
-**A structured tracking repository for Data Structures, Algorithms & Database challenges — solved on the road to acing the technical interview.**
+**A structured tracking repository for Data Structures, Algorithms & Database challenges solved on the road to acing the technical interview.**
 
 ![Problems Solved](https://img.shields.io/badge/Problems_Solved-31-brightgreen?style=for-the-badge&logo=leetcode)
 ![Focus](https://img.shields.io/badge/Focus-DSA_%26_SQL-blue?style=for-the-badge)
