@@ -1,7 +1,6 @@
 class Solution(object):
     def mergeAlternately(self, word1, word2):
-        i=0
-        j=0
+        i, j = 0, 0
         new_string=""
         len_word1=len(word1)
         len_word2=len(word2)
