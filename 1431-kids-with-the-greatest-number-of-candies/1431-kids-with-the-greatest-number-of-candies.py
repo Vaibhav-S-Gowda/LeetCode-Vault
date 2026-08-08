@@ -4,9 +4,6 @@ class Solution(object):
 
         result = []
         for i in candies:
-            if (i + extraCandies) >= max_candies:
-                result.append(True)
-            else:
-                result.append(False)
+            result.append(i + extraCandies >= max_candies)
         
         return result
