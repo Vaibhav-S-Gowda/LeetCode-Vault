@@ -1,15 +1,17 @@
 class Solution(object):
     def increasingTriplet(self, nums):
-        first = float('inf')
-        second = float('inf')
+        if len(set(nums)) < 3 :
+            return False
 
-        for num in nums:
+        F_min = float('inf')
+        S_min = float('inf')
 
-            if num <= first:
-                first = num
-            elif num <= second:
-                second = num
+        for i in nums:
+            if i <= F_min:
+                F_min = i
+            elif i <= S_min:
+                S_min = i
             else:
                 return True
-
+                
         return False
