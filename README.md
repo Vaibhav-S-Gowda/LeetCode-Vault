@@ -279,4 +279,8 @@
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0334-increasing-triplet-subsequence) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
