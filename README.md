@@ -265,6 +265,7 @@
 | [0283-move-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0443-string-compression) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1679-max-number-of-k-sum-pairs) |
 ## String
 |  |
 | ------- |
@@ -277,6 +278,7 @@
 | [0011-container-with-most-water](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0011-container-with-most-water) |
 | [0283-move-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0334-increasing-triplet-subsequence) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1679-max-number-of-k-sum-pairs) |
 ## Greedy
 |  |
 | ------- |
@@ -294,4 +296,12 @@
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0392-is-subsequence) |
+## Hash Table
+|  |
+| ------- |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1679-max-number-of-k-sum-pairs) |
+## Sorting
+|  |
+| ------- |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1679-max-number-of-k-sum-pairs) |
 <!---LeetCode Topics End-->
