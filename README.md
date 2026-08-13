@@ -265,4 +265,16 @@
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0151-reverse-words-in-a-string) |
+## Array
+|  |
+| ------- |
+| [0334-increasing-triplet-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0334-increasing-triplet-subsequence) |
+## Greedy
+|  |
+| ------- |
+| [0334-increasing-triplet-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0334-increasing-triplet-subsequence) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0334-increasing-triplet-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0334-increasing-triplet-subsequence) |
 <!---LeetCode Topics End-->
