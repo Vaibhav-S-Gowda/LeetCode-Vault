@@ -262,11 +262,13 @@
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0283-move-zeroes) |
+| [0392-is-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0443-string-compression) |
 ## String
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0151-reverse-words-in-a-string) |
+| [0392-is-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0443-string-compression) |
 ## Array
 |  |
@@ -285,4 +287,8 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0009-palindrome-number) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0392-is-subsequence) |
 <!---LeetCode Topics End-->
