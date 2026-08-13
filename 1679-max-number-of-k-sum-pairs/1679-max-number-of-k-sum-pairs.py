@@ -7,7 +7,6 @@ class Solution(object):
         
         for num in list(counts.keys()):
             target = k - num
-            
             if target in counts:
                 if num == target:
                     ops += counts[num] // 2
