@@ -272,6 +272,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0443-string-compression) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Array
 |  |
 | ------- |
@@ -300,8 +301,13 @@
 |  |
 | ------- |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1679-max-number-of-k-sum-pairs) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Sorting
 |  |
 | ------- |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1679-max-number-of-k-sum-pairs) |
+## Sliding Window
+|  |
+| ------- |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 <!---LeetCode Topics End-->
