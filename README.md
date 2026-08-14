@@ -279,6 +279,7 @@
 | [0011-container-with-most-water](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0011-container-with-most-water) |
 | [0283-move-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0334-increasing-triplet-subsequence) |
+| [0643-maximum-average-subarray-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0643-maximum-average-subarray-i) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1679-max-number-of-k-sum-pairs) |
 ## Greedy
 |  |
@@ -309,5 +310,6 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0643-maximum-average-subarray-i) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 <!---LeetCode Topics End-->
