@@ -280,6 +280,7 @@
 | [0283-move-zeroes](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0334-increasing-triplet-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0643-maximum-average-subarray-i) |
+| [0746-min-cost-climbing-stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0746-min-cost-climbing-stairs) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1679-max-number-of-k-sum-pairs) |
 ## Greedy
 |  |
@@ -299,6 +300,7 @@
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0392-is-subsequence) |
+| [0746-min-cost-climbing-stairs](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1137-n-th-tribonacci-number) |
 ## Hash Table
 |  |
