@@ -294,10 +294,12 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0009-palindrome-number) |
+| [1137-n-th-tribonacci-number](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1137-n-th-tribonacci-number) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0392-is-subsequence) |
+| [1137-n-th-tribonacci-number](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1137-n-th-tribonacci-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -312,4 +314,8 @@
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0643-maximum-average-subarray-i) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+## Memoization
+|  |
+| ------- |
+| [1137-n-th-tribonacci-number](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1137-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
