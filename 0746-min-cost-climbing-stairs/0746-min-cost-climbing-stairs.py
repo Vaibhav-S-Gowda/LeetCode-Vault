@@ -1,16 +1,10 @@
 class Solution(object):
 
   def minCostClimbingStairs(self, cost):
-    memo = {}
-
-    def dp(i):
-      if i >= len(cost):
-        return 0
-
-      if i in memo:
-        return memo[i]
-
-      memo[i] = cost[i] + min(dp(i + 1), dp(i + 2))
-      return memo[i]
-
-    return min(dp(0), dp(1))
+        prev2 = cost[0]
+        prev1 = cost[1]
+        for i in range(2, len(cost)):
+            current = cost[i] + min(prev1, prev2)
+            prev2 = prev1
+            prev1 = current
+        return min(prev1, prev2)
