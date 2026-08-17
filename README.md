@@ -279,4 +279,12 @@
 |  |
 | ------- |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+## Array
+|  |
+| ------- |
+| [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
+## Prefix Sum
+|  |
+| ------- |
+| [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
 <!---LeetCode Topics End-->
