@@ -283,8 +283,13 @@
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
+## Hash Table
+|  |
+| ------- |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3471-find-the-largest-almost-missing-integer) |
 <!---LeetCode Topics End-->
