@@ -282,6 +282,7 @@
 ## Array
 |  |
 | ------- |
+| [1386-cinema-seat-allocation](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1386-cinema-seat-allocation) |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Prefix Sum
@@ -291,5 +292,14 @@
 ## Hash Table
 |  |
 | ------- |
+| [1386-cinema-seat-allocation](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1386-cinema-seat-allocation) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3471-find-the-largest-almost-missing-integer) |
+## Greedy
+|  |
+| ------- |
+| [1386-cinema-seat-allocation](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1386-cinema-seat-allocation) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1386-cinema-seat-allocation](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1386-cinema-seat-allocation) |
 <!---LeetCode Topics End-->
