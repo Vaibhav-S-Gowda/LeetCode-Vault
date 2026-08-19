@@ -278,16 +278,19 @@
 ## Sliding Window
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1004-max-consecutive-ones-iii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Array
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1004-max-consecutive-ones-iii) |
 | [1386-cinema-seat-allocation](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1386-cinema-seat-allocation) |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Prefix Sum
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1004-max-consecutive-ones-iii) |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
 ## Hash Table
 |  |
@@ -302,4 +305,8 @@
 |  |
 | ------- |
 | [1386-cinema-seat-allocation](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1386-cinema-seat-allocation) |
+## Binary Search
+|  |
+| ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
