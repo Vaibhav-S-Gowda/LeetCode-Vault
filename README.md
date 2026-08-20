@@ -280,11 +280,13 @@
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1004-max-consecutive-ones-iii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Array
 |  |
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1004-max-consecutive-ones-iii) |
 | [1386-cinema-seat-allocation](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1386-cinema-seat-allocation) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -314,4 +316,8 @@
 |  |
 | ------- |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3069-distribute-elements-into-two-arrays-i) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 <!---LeetCode Topics End-->
