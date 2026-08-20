@@ -286,6 +286,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1004-max-consecutive-ones-iii) |
 | [1386-cinema-seat-allocation](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1386-cinema-seat-allocation) |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1732-find-the-highest-altitude) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Prefix Sum
 |  |
@@ -309,4 +310,8 @@
 |  |
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1004-max-consecutive-ones-iii) |
+## Simulation
+|  |
+| ------- |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3069-distribute-elements-into-two-arrays-i) |
 <!---LeetCode Topics End-->
