@@ -322,4 +322,20 @@
 |  |
 | ------- |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0104-maximum-depth-of-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0104-maximum-depth-of-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
