@@ -1,17 +1,14 @@
 class Solution(object):
     def checkDivisibility(self, n):
-        original_n = n
-        digits = []
+        sum1, product = 0, 1
+        orig = n
 
         while n > 0:
-            digits.append(n%10)
+            sum1 += n%10
+            product *= n%10
             n //= 10
-        
-        digit_prod = 1
-        for d in digits:
-            digit_prod *= d
 
-        total = sum(digits) + digit_prod
-
-        return original_n % total == 0
-        
+        if orig%(sum1+product) == 0:
+            return True
+        else : 
+            return False
