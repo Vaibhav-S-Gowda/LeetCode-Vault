@@ -341,4 +341,8 @@
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0872-leaf-similar-trees](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/0872-leaf-similar-trees) |
+## Math
+|  |
+| ------- |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Vaibhav-S-Gowda/LeetCode-Vault/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 <!---LeetCode Topics End-->
